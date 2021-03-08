@@ -194,8 +194,8 @@ main .info button a {
 }
 
 .comments .card .circle {
-   width: 45px !important; 
-   height: 45px !important;
+   width: 40px !important; 
+   height: 40px !important;
    border-radius: 50%;
 
    background: #D6000D;
@@ -275,4 +275,72 @@ footer .info:last-child nav {
 
 footer .info:last-child nav a{
    padding: 10px;
+}
+
+/* Desktop */
+@media(min-width: 980px) {
+   /* Header */
+   header {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+   }
+
+   header nav ul li .login {
+      height: 40px;
+      width: 150px;
+      background: #D6000D;
+      border-radius: 10px;
+   }
+
+   header nav ul li .login {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: #FFFFFF;
+   }
+
+   /* Main */
+   main {
+      margin-top: 60px;
+
+      display: flex;
+      justify-content: center;
+   }
+
+   main > img {
+      height: 500px;
+   }
+
+   main .info {
+      margin-left: 10%;
+   }
+
+   main .info h2 {
+      margin-bottom: 15px;
+
+      font-size: 24px;
+   }
+
+   main .info h1 {
+      margin-bottom: 30px;
+      
+      font-size: 60px;
+   }
+
+   /* Section 'service' */
+   .services {
+      margin-top: 60px;
+
+      display: flex;
+      justify-content: center;
+
+      flex-direction: row-reverse;
+   }
+
+   .services > img {
+      height: 500px;
+   }
 }
