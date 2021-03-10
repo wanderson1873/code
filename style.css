@@ -344,6 +344,72 @@ footer {
    padding: 30px 20px;
 }
 
+footer .info {
+   margin: 15px 0;
+}
+
+footer .info:first-child h2 {
+   margin-bottom: 15px;
+
+   font-style: italic;
+   font-weight: bold;
+   font-size: 3em;
+   line-height: 56px;
+}
+
+footer .info h2 {
+   margin-bottom: 15px;
+
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.5em;
+   line-height: 28px;
+}
+
+footer .info p {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.128em;
+   line-height: 21px;
+}
+
+footer .info li {
+   margin-bottom: 10px
+}
+
+footer .info:last-child ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+footer .info:last-child ul a {
+   padding: 10px
+}
+
+footer .info:last-child ul a svg:hover path{
+   fill: #A2000A;
+}
+
+@media (min-width: 650px) {
+   footer {
+      flex-direction: row;
+      justify-content: center;
+      
+   }
+
+   footer .info {
+      margin-right: 30px;
+      align-self: baseline;
+   }
+
+   .pequeno {
+      max-width: 205px
+   }
+
+}
+
+
+
 
 
 
